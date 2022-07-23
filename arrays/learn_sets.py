@@ -1,3 +1,6 @@
+#Set items are unordered, unchangeable, and do not allow duplicate values.
+#Once a set is created, you cannot change its items, but you can remove items and add new items.
+
 #Create a set
 thisset = {"apple", "banana", "cherry", "apple"}
 print(thisset)
@@ -17,5 +20,4 @@ set1 = {"abc", 34, True, 40, "male"}
 myset = {"apple", "banana", "cherry"}
 print(type(myset))
 
-#Set items are unordered, unchangeable, and do not allow duplicate values.
-#Once a set is created, you cannot change its items, but you can remove items and add new items.
+
