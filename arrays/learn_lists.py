@@ -1,3 +1,7 @@
+#List items are ordered, changeable, and allow duplicate values.
+#List items are indexed, the first item has index [0], the second item has index [1] etc.
+#If you add new items to a list, the new items will be placed at the end of the list.
+
 #Create a List of Numbers
 my_list = []
 for x in range(1,10):
@@ -25,3 +29,5 @@ list2 = [1, 5, 7, 9, 3] #numeric
 list3 = [True, False, False] #bool
 list4 = ["abc", 34, True, 40, "male"] #mixed
 print(type(my_list)) #What Datatype is it?
+
+
