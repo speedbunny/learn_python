@@ -144,5 +144,25 @@ print(newlist)
 #newlist = [expression for item in iterable if condition == True]
 newlist = [x for x in fruits if x != "apple"] 
 
+#Loop Lists
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+  print(x) 
 
+#While Loop
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+
+#List Comprehension
+thislist = ["apple", "banana", "cherry"]
+[print(x) for x in thislist] 
+
+#Print indexes
+
+thislist = ["apple", "banana", "cherry"]
+for i in range(len(thislist)):
+  print(thislist[i]) 
 
