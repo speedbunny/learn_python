@@ -1,12 +1,13 @@
-#Create a Tuple
-my_tuple = ("apple", "banana", "cherry")
-#Tuple constructor
-thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
 
 #Tuple items are ordered, unchangeable, and allow duplicate values.
 #Tuple items are indexed, the first item has index [0], the second item has index [1] etc.
 #Tuple items have a defined ordered, and the order will not change.
 #Tuples cannot have items added or removed after it has been created.
+
+#Create a Tuple
+my_tuple = ("apple", "banana", "cherry")
+#Tuple constructor
+thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
 
 #Tuples can allow duplicates because they are indexed.
 thistuple = ("apple", "banana", "cherry", "apple", "cherry")
